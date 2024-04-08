@@ -80,6 +80,7 @@ class _RegistrarProyectoState extends State<RegistrarProyecto> {
           style: TextStyle(
               color: Color.fromARGB(255, 242, 242, 242), fontSize: 30),
         ),
+        centerTitle: true,
         backgroundColor: Color.fromARGB(255, 0, 0, 0),
       ),
       body: Padding(

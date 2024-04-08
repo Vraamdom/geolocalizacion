@@ -37,7 +37,7 @@ class _MenuScreenState extends State<MenuScreen> {
           ),
           ListTile(
             title: const Text('Localización Actual'),
-            subtitle: const Text('Formulario para agregar participantes al evento'),
+            subtitle: const Text('Encuentra tu ubicación actual en el mapa'),
             leading: const Icon(Icons.map_outlined, color: Color.fromARGB(255, 0, 0, 0)),
             trailing: const Icon(Icons.arrow_forward_ios, color: Colors.black),
             onTap: (){
